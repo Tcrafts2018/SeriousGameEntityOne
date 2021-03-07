@@ -4,8 +4,8 @@ using UnityEngine;
 
 public class Character_Controller : MonoBehaviour
 {
-    bool canPickUp;
-    bool makeChild;
+    //bool canPickUp;
+   //bool makeChild;
     GameObject Player;
     float y = -270;
     // Start is called before the first frame update
@@ -26,14 +26,14 @@ public class Character_Controller : MonoBehaviour
         {
             y = y - 90;
         }
-        if (canPickUp == true)
+        /*if (canPickUp == true)
         {
             if (Input.GetKeyDown("e"))
             {
                 Debug.Log("Hello");
                 makeChild = true;
             }
-        }
+        }*/
     }
 
     /*private void OnTriggerStay(Collider other)
